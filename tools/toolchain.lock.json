@@ -1,0 +1,19 @@
+{
+  "cc65": {
+    "repository": "https://github.com/cc65/cc65.git",
+    "commit": "52727a5b407bfeac0dfac1fdd84be8cd2af4f814",
+    "build": "make -j2 ca65 ld65"
+  },
+  "py65": {"version": "1.2.0", "source": "PyPI"},
+  "libgme": {"version": "0.6.3", "debian_package": "libgme0"},
+  "nsfimport_cli": {
+    "repository": "https://github.com/telescopeman/nsfimport-cli.git",
+    "commit": "8eb2253aaf079b81726e77a6ad14a1e5fd0f7e80",
+    "build": "make -j2"
+  },
+  "nsfplay_reference": {
+    "repository": "https://github.com/bbbradsmith/nsfplay.git",
+    "commit": "6af5406e3325b5507bea1ae1a57c77d5efe5c7f3",
+    "use": "Source inspection of NSF header and DMC behavior; not used to render"
+  }
+}

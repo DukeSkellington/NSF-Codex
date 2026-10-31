@@ -1,0 +1,21 @@
+test_6502_full_two_loops_return_memory_and_budget (test_music.MusicTests.test_6502_full_two_loops_return_memory_and_budget) ... ok
+test_actual_brad_smith_importer_cli_output (test_music.MusicTests.test_actual_brad_smith_importer_cli_output) ... ok
+test_candidates_execute_two_loops (test_music.MusicTests.test_candidates_execute_two_loops) ... ok
+test_dirty_ram_and_decimal_flag (test_music.MusicTests.test_dirty_ram_and_decimal_flag) ... ok
+test_effects_are_audibly_nonconstant_register_behaviors (test_music.MusicTests.test_effects_are_audibly_nonconstant_register_behaviors) ... ok
+test_exact_loop_apu_events (test_music.MusicTests.test_exact_loop_apu_events) ... ok
+test_header_all_four_files (test_music.MusicTests.test_header_all_four_files) ... ok
+test_independent_libgme_wav (test_music.MusicTests.test_independent_libgme_wav) ... ok
+test_no_dpcm_irq_or_mapper_writes (test_music.MusicTests.test_no_dpcm_irq_or_mapper_writes) ... ok
+test_note_attacks_match_score_pitch_and_volume (test_music.MusicTests.test_note_attacks_match_score_pitch_and_volume) ... ok
+test_pitch_accuracy_ntsc (test_music.MusicTests.test_pitch_accuracy_ntsc) ... ok
+test_portable_scores_and_comparison (test_music.MusicTests.test_portable_scores_and_comparison) ... ok
+test_pulse_high_not_retriggered_every_frame (test_music.MusicTests.test_pulse_high_not_retriggered_every_frame) ... ok
+test_reinit_is_deterministic (test_music.MusicTests.test_reinit_is_deterministic) ... ok
+test_rest_tie_short_gate_and_sustained_envelope (test_music.MusicTests.test_rest_tie_short_gate_and_sustained_envelope) ... ok
+test_row_stream_does_not_drift (test_music.MusicTests.test_row_stream_does_not_drift) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 7.474s
+
+OK

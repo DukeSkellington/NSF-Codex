@@ -1,0 +1,50 @@
+{
+  "criteria_weights": {
+    "memorability": 30,
+    "phrasing": 20,
+    "harmonic_direction": 20,
+    "channel_fit": 15,
+    "development": 15
+  },
+  "scoring": "Composer judgement on a 1\u20135 scale; these are editorial scores, not listening-test results.",
+  "candidates": [
+    {
+      "id": "lantern",
+      "scores": [
+        5,
+        5,
+        4,
+        5,
+        5
+      ],
+      "weighted_total": 96,
+      "rationale": "Distinctive 3+1 pickup cell; space after the answer; D# dominant gives a strong return. Best balance of singing theme and room for a second voice."
+    },
+    {
+      "id": "glass",
+      "scores": [
+        3,
+        3,
+        4,
+        4,
+        4
+      ],
+      "weighted_total": 70,
+      "rationale": "Energetic wide chord leaps and extensions; near-continuous eighths obscure phrase breathing and compete with the arpeggio voice."
+    },
+    {
+      "id": "tidal",
+      "scores": [
+        4,
+        4,
+        4,
+        5,
+        3
+      ],
+      "weighted_total": 80,
+      "rationale": "Long lyrical arch and Dorian color; excellent channel economy, but less rhythmic identity and less contrast available for a later bridge."
+    }
+  ],
+  "selected": "lantern",
+  "before_final_nsf": true
+}

@@ -1,0 +1,99 @@
+{
+  "status": "passed",
+  "tests_run": 16,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "cpu_core": "py65 1.2.0 MPU6502 (decimal flag explicitly cleared by driver)",
+  "final_frames_executed": 14336,
+  "complete_loops_executed": 2,
+  "maximum_routine_cycles": 1397,
+  "ntsc_frame_budget_cycles": 29780,
+  "maximum_stack_bytes": 6,
+  "worst_unmodulated_pitch_error_cents": 4.1558,
+  "loop_frame_count": 7168,
+  "loop_seconds": 119.268352,
+  "loop_apu_write_sequences_identical": true,
+  "audio_renderer": "libgme 0.6.3 independent 6502/APU emulation",
+  "audio": {
+    "candidate_glass.wav": {
+      "seconds": 14.908548752834466,
+      "sample_rate": 44100,
+      "channels": 2,
+      "peak_pcm16": 21582,
+      "rms_pcm16": 4713.995,
+      "peak_dbfs": -3.627,
+      "clipped_samples": 0
+    },
+    "candidate_lantern.wav": {
+      "seconds": 14.908548752834466,
+      "sample_rate": 44100,
+      "channels": 2,
+      "peak_pcm16": 23900,
+      "rms_pcm16": 4623.579,
+      "peak_dbfs": -2.741,
+      "clipped_samples": 0
+    },
+    "candidate_tidal.wav": {
+      "seconds": 14.908548752834466,
+      "sample_rate": 44100,
+      "channels": 2,
+      "peak_pcm16": 22950,
+      "rms_pcm16": 4586.395,
+      "peak_dbfs": -3.093,
+      "clipped_samples": 0
+    },
+    "lantern_circuit.wav": {
+      "seconds": 119.26834467120182,
+      "sample_rate": 44100,
+      "channels": 2,
+      "peak_pcm16": 22170,
+      "rms_pcm16": 4446.789,
+      "peak_dbfs": -3.394,
+      "clipped_samples": 0
+    }
+  },
+  "importer": {
+    "implementation": "telescopeman/nsfimport-cli; port of Brad Smith NSF Importer v0.5",
+    "commit": "8eb2253aaf079b81726e77a6ad14a1e5fd0f7e80",
+    "seconds_recorded": 122,
+    "command": "nsfimport --seconds 122 --silence 0 --pattern-length 256 --no-m3u deliverables/lantern_circuit.nsf deliverables/lantern_circuit_import.ftm",
+    "output": {
+      "format_version": "0x420",
+      "channels": 5,
+      "order_count": 29,
+      "rows_per_pattern": 256,
+      "speed": 1,
+      "tempo": 150,
+      "populated_cells_by_channel": {
+        "0": 3105,
+        "1": 2762,
+        "2": 604,
+        "3": 2164,
+        "4": 1
+      },
+      "note_cells_by_channel": {
+        "0": 422,
+        "1": 467,
+        "2": 354,
+        "3": 683
+      },
+      "last_populated_frame": 7318
+    },
+    "warnings": []
+  },
+  "hardware_tested": false,
+  "original_windows_importer_tested": false,
+  "human_listening_performed": false,
+  "sha256": {
+    "candidate_glass.nsf": "d80e341132f7827d2646e9e15276e0957190ba8b193ffa169bae2248cc6a0950",
+    "candidate_glass.wav": "25b53b06a7349cd073d549895a30b9b37f5e6a871269c180a8fbc741654532ae",
+    "candidate_lantern.nsf": "05cd998b4e3a17db38c71f88daf3cc98203b985627e9726fab3823afd3f6661d",
+    "candidate_lantern.wav": "06e11afd66eca9d8bb310fc681d7a1a6f55d10685b9fcbdf28b256486695d47f",
+    "candidate_tidal.nsf": "107b56f085cd91b9038ebc99fb90e0e020f877395cb4ef087f7f3fced4f9992b",
+    "candidate_tidal.wav": "b47d19df726ec3ec61f890e03c6647baac26fa89384cca01f328ebe07977ee16",
+    "lantern_circuit.nsf": "7d146c3bbd84fbdd23c7bf7d26506be9fe370e0bb97cc31424bc83221d2b5f50",
+    "lantern_circuit.wav": "e0f402f0a46e74958662fdf90dd918e44d1b56cdaabadbb8bfdd4ea6f5047fae",
+    "lantern_circuit_import.ftm": "f32f79075d70fcf58172d4256e2b39f0361ef47c83e94ea226d8efce3880a743"
+  }
+}
